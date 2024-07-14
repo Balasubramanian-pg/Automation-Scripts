@@ -1,4 +1,4 @@
-### Automation Scripts
+### Email Batch Processing & Parser
 
 This repository contains Python scripts designed to automate various email-related tasks. The primary functions include:
 * Fetching emails from an IMAP server
