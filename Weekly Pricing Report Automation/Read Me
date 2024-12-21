@@ -2,10 +2,8 @@
 
 ## 📝 Use Case
 
-In a fast-paced sales environment, pricing reports were manually generated and shared every Monday. However, due to legal restrictions, access to price lists needed strict control. This required:
-
-- Automating the report generation process.
-- Ensuring controlled distribution of customized pricing reports for authorized personnel only.
+The project has 3 phases, connecting excel workbook directly to a data source of your choice (ERP in my case), Extracting and cleaning a routine set of information from a designated master
+and then creating a neat formatted report and mailing the same to the essential stakeholders.
 
 ## 🚀 Solution
 
