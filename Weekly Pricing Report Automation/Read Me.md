@@ -59,28 +59,28 @@ Sub GeneratePricingReports()
 End Sub
 ```
 
-Key Features
+### Key Features
 
-    Automation: Reduced manual work and errors.
-    Customization: Ensured tailored reports for each recipient.
-    Scalability: Adaptable for future enhancements.
+Automation: Reduced manual work and errors.
+Customization: Ensured tailored reports for each recipient.
+Scalability: Adaptable for future enhancements.
 
 💡 Thought Process
 
 The solution was designed with these objectives:
 
-    Efficiency: Replace repetitive manual tasks with automated workflows.
-    Compliance: Restrict data access per legal requirements.
-    Usability: Simplify processes for non-technical users.
+Efficiency: Replace repetitive manual tasks with automated workflows.
+Compliance: Restrict data access per legal requirements.
+Usability: Simplify processes for non-technical users.
 
 Challenges included dynamic validation, handling scope creep, and adapting to evolving business needs. This project emphasized the importance of iterative development and stakeholder collaboration.
 🛠️ Advanced Formatting in Excel
 
 The generated reports featured:
 
-    Dynamic Pivot Tables: For better data summarization.
-    Advanced Visuals: Donut charts, KPI cards, slicers for filtering.
-    Data Validation: Ensured accuracy and consistency in outputs.
+Dynamic Pivot Tables: For better data summarization.
+Advanced Visuals: Donut charts, KPI cards, slicers for filtering.
+Data Validation: Ensured accuracy and consistency in outputs.
 
 🤝 Contribution
 
@@ -88,9 +88,9 @@ Feel free to contribute by raising issues or suggesting enhancements. Collaborat
 
 📂 Repository Contents
 
-    Code/: Contains VBA scripts.
-    Templates/: Includes the Excel templates used for reports.
-    Documentation/: Detailed process documentation.
+Code/: Contains VBA scripts.
+Templates/: Includes the Excel templates used for reports.
+Documentation/: Detailed process documentation.
 
 📬 Feedback
 
