@@ -1,0 +1,30 @@
+Sub SendEmails()
+    Dim OutlookApp As Object
+    Dim MailItem As Object
+    Dim recipientList As Range
+    Dim cell As Range
+    
+    ' Set recipient list range (modify as needed)
+    Set recipientList = ThisWorkbook.Sheets("Recipients").Range("A1:A10")
+    
+    ' Initialize Outlook
+    Set OutlookApp = CreateObject("Outlook.Application")
+    
+    ' Loop through recipients
+    For Each cell In recipientList
+        Set MailItem = OutlookApp.CreateItem(0)
+        With MailItem
+            .To = cell.Value
+            .Subject = "Weekly Pricing Report"
+            .Body = "Please find the weekly pricing report attached."
+            .Attachments.Add "C:\Path\To\Your\Report.xlsx"
+            .Send
+        End With
+    Next cell
+    
+    ' Clean up
+    Set MailItem = Nothing
+    Set OutlookApp = Nothing
+    
+    MsgBox "Emails sent successfully!", vbInformation
+End Sub
