@@ -57,8 +57,8 @@ Sub GeneratePricingReports()
     
     MsgBox "Pricing reports generated and sent successfully!", vbInformation
 End Sub
+```
 
---
 Key Features
 
     Automation: Reduced manual work and errors.
