@@ -73,6 +73,9 @@ Here’s a list of **VBA and Macros**-focused automation project ideas for Excel
 - **Excel Formulas** (For automation alongside VBA)
 - **Email Automation** (Sending notifications using `Outlook.Application` object in VBA)
 
+
+Wild Wild West
+
 ---
 
 Each of these projects involves automating repetitive tasks in Excel using VBA and Macros, making them powerful tools to improve efficiency and accuracy. Let me know if you need help implementing any specific project!
