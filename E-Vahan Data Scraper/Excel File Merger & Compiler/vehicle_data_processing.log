@@ -1,0 +1,680 @@
+2025-02-17 13:03:00,877 - INFO - Vehicle Data Processing Script started.
+2025-02-17 13:03:00,877 - DEBUG - Output folder 'C:\Users\ASUS\OneDrive\Desktop\Processed_Vehicle_Data' is ready.
+2025-02-17 13:03:00,878 - INFO - Found 28 files to process in 'C:\Users\ASUS\OneDrive\Documents\Maker Wise\Arunachal Pradesh'.
+2025-02-17 13:03:00,879 - INFO - Processing file: ANJAW - AR17.xlsx
+2025-02-17 13:03:00,880 - INFO - Processing file: _1.xlsx
+2025-02-17 13:03:00,881 - INFO - Processing file: _10.xlsx
+2025-02-17 13:03:00,882 - INFO - Processing file: _11.xlsx
+2025-02-17 13:03:00,911 - DEBUG - File 'ANJAW - AR17.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:03:00,914 - DEBUG - File '_1.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:03:00,916 - DEBUG - File '_10.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:03:00,919 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,921 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,922 - DEBUG - File '_11.xlsx' read successfully. Data shape: (12, 5)
+2025-02-17 13:03:00,922 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,923 - INFO - Extracted metadata for 'ANJAW - AR17.xlsx': RTO='ANJAW - AR17', State='Arunachal Pradesh'
+2025-02-17 13:03:00,923 - INFO - Extracted metadata for '_1.xlsx': RTO='CHANGLANG - AR12', State='Arunachal Pradesh'
+2025-02-17 13:03:00,924 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,924 - INFO - Extracted metadata for '_10.xlsx': RTO='LEPARADA - AR25', State='Arunachal Pradesh'
+2025-02-17 13:03:00,925 - DEBUG - Header row detected at row 3 in 'ANJAW - AR17.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,926 - DEBUG - Header row detected at row 3 in '_1.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,926 - INFO - Extracted metadata for '_11.xlsx': RTO='LOHIT - AR11', State='Arunachal Pradesh'
+2025-02-17 13:03:00,927 - DEBUG - Header row detected at row 3 in '_10.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,928 - DEBUG - File 'ANJAW - AR17.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:00,929 - DEBUG - File '_1.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:03:00,930 - DEBUG - Header row detected at row 3 in '_11.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,931 - DEBUG - File '_11.xlsx' - Row 4: Raw JAN = 88, Raw FEB = 16
+2025-02-17 13:03:00,931 - DEBUG - File '_11.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:00,932 - DEBUG - File 'ANJAW - AR17.xlsx' - Row 5: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:03:00,933 - DEBUG - File '_10.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:00,934 - DEBUG - File '_11.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 3
+2025-02-17 13:03:00,934 - DEBUG - File '_1.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 3
+2025-02-17 13:03:00,935 - INFO - File 'ANJAW - AR17.xlsx' processed successfully with 2 rows.
+2025-02-17 13:03:00,936 - DEBUG - File '_10.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:00,936 - DEBUG - File '_11.xlsx' - Row 7: Raw JAN = 6, Raw FEB = 1
+2025-02-17 13:03:00,937 - DEBUG - File '_1.xlsx' - Row 6: Raw JAN = 16, Raw FEB = 9
+2025-02-17 13:03:00,937 - INFO - Processing file: _12.xlsx
+2025-02-17 13:03:00,938 - DEBUG - File '_10.xlsx' - Row 6: Raw JAN = 17, Raw FEB = 1
+2025-02-17 13:03:00,938 - DEBUG - File '_11.xlsx' - Row 8: Raw JAN = 7, Raw FEB = 6
+2025-02-17 13:03:00,939 - DEBUG - File '_1.xlsx' - Row 7: Raw JAN = 45, Raw FEB = 19
+2025-02-17 13:03:00,940 - DEBUG - File '_10.xlsx' - Row 7: Raw JAN = 8, Raw FEB = 3
+2025-02-17 13:03:00,940 - DEBUG - File '_11.xlsx' - Row 9: Raw JAN = 108, Raw FEB = 49
+2025-02-17 13:03:00,941 - DEBUG - File '_1.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,942 - DEBUG - File '_10.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,943 - DEBUG - File '_11.xlsx' - Row 10: Raw JAN = 45, Raw FEB = 17
+2025-02-17 13:03:00,947 - INFO - File '_1.xlsx' processed successfully with 5 rows.
+2025-02-17 13:03:00,947 - DEBUG - File '_12.xlsx' read successfully. Data shape: (13, 5)
+2025-02-17 13:03:00,947 - INFO - File '_10.xlsx' processed successfully with 5 rows.
+2025-02-17 13:03:00,948 - DEBUG - File '_11.xlsx' - Row 11: Raw JAN = 6, Raw FEB = 1
+2025-02-17 13:03:00,949 - INFO - Processing file: _13.xlsx
+2025-02-17 13:03:00,950 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,950 - INFO - Processing file: _14.xlsx
+2025-02-17 13:03:00,951 - INFO - File '_11.xlsx' processed successfully with 8 rows.
+2025-02-17 13:03:00,952 - INFO - Extracted metadata for '_12.xlsx': RTO='LONGDING - AR18', State='Arunachal Pradesh'
+2025-02-17 13:03:00,954 - INFO - Processing file: _15.xlsx
+2025-02-17 13:03:00,957 - DEBUG - Header row detected at row 3 in '_12.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,959 - DEBUG - File '_12.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:00,960 - DEBUG - File '_12.xlsx' - Row 5: Raw JAN = 7, Raw FEB = 2
+2025-02-17 13:03:00,962 - DEBUG - File '_13.xlsx' read successfully. Data shape: (16, 5)
+2025-02-17 13:03:00,963 - DEBUG - File '_12.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,964 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,965 - DEBUG - File '_12.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:00,967 - INFO - Extracted metadata for '_13.xlsx': RTO='LOWER DIBANG VALLEY - AR16', State='Arunachal Pradesh'
+2025-02-17 13:03:00,973 - DEBUG - File '_14.xlsx' read successfully. Data shape: (12, 5)
+2025-02-17 13:03:00,974 - DEBUG - File '_12.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,977 - DEBUG - Header row detected at row 3 in '_13.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,979 - DEBUG - File '_15.xlsx' read successfully. Data shape: (11, 5)
+2025-02-17 13:03:00,979 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,980 - DEBUG - File '_12.xlsx' - Row 9: Raw JAN = 5, Raw FEB = 3
+2025-02-17 13:03:00,981 - DEBUG - File '_13.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 3
+2025-02-17 13:03:00,981 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:00,982 - INFO - Extracted metadata for '_14.xlsx': RTO='LOWER SIANG - AR22', State='Arunachal Pradesh'
+2025-02-17 13:03:00,982 - DEBUG - File '_12.xlsx' - Row 10: Raw JAN = 12, Raw FEB = 11
+2025-02-17 13:03:00,983 - DEBUG - File '_13.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,983 - INFO - Extracted metadata for '_15.xlsx': RTO='LOWER SUBANSIRI - AR6', State='Arunachal Pradesh'
+2025-02-17 13:03:00,985 - DEBUG - Header row detected at row 3 in '_14.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,985 - DEBUG - File '_12.xlsx' - Row 11: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:00,986 - DEBUG - File '_13.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:00,987 - DEBUG - Header row detected at row 3 in '_15.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:00,988 - DEBUG - File '_14.xlsx' - Row 4: Raw JAN = 11, Raw FEB = 0
+2025-02-17 13:03:00,988 - DEBUG - File '_12.xlsx' - Row 12: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:00,989 - DEBUG - File '_13.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:00,990 - DEBUG - File '_15.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:03:00,990 - DEBUG - File '_14.xlsx' - Row 5: Raw JAN = 6, Raw FEB = 9
+2025-02-17 13:03:00,991 - INFO - File '_12.xlsx' processed successfully with 9 rows.
+2025-02-17 13:03:00,991 - DEBUG - File '_13.xlsx' - Row 8: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:00,992 - DEBUG - File '_15.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:03:00,993 - DEBUG - File '_14.xlsx' - Row 6: Raw JAN = 16, Raw FEB = 6
+2025-02-17 13:03:00,993 - INFO - Processing file: _16.xlsx
+2025-02-17 13:03:00,993 - DEBUG - File '_13.xlsx' - Row 9: Raw JAN = 3, Raw FEB = 6
+2025-02-17 13:03:00,994 - DEBUG - File '_15.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:00,995 - DEBUG - File '_14.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:00,996 - DEBUG - File '_13.xlsx' - Row 10: Raw JAN = 36, Raw FEB = 63
+2025-02-17 13:03:00,996 - DEBUG - File '_15.xlsx' - Row 7: Raw JAN = 6, Raw FEB = 0
+2025-02-17 13:03:00,997 - DEBUG - File '_14.xlsx' - Row 8: Raw JAN = 86, Raw FEB = 95
+2025-02-17 13:03:00,997 - DEBUG - File '_13.xlsx' - Row 11: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:03:00,998 - DEBUG - File '_15.xlsx' - Row 8: Raw JAN = 13, Raw FEB = 2
+2025-02-17 13:03:00,999 - DEBUG - File '_14.xlsx' - Row 9: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:03:01,000 - DEBUG - File '_13.xlsx' - Row 12: Raw JAN = 35, Raw FEB = 41
+2025-02-17 13:03:01,002 - DEBUG - File '_15.xlsx' - Row 9: Raw JAN = 17, Raw FEB = 3
+2025-02-17 13:03:01,005 - DEBUG - File '_16.xlsx' read successfully. Data shape: (14, 5)
+2025-02-17 13:03:01,006 - DEBUG - File '_14.xlsx' - Row 10: Raw JAN = 34, Raw FEB = 14
+2025-02-17 13:03:01,006 - DEBUG - File '_13.xlsx' - Row 13: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,007 - DEBUG - File '_15.xlsx' - Row 10: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,007 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,008 - DEBUG - File '_14.xlsx' - Row 11: Raw JAN = 4, Raw FEB = 4
+2025-02-17 13:03:01,008 - DEBUG - File '_13.xlsx' - Row 14: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,009 - INFO - File '_15.xlsx' processed successfully with 7 rows.
+2025-02-17 13:03:01,010 - INFO - Extracted metadata for '_16.xlsx': RTO='NAMSAI - AR20', State='Arunachal Pradesh'
+2025-02-17 13:03:01,010 - INFO - File '_14.xlsx' processed successfully with 8 rows.
+2025-02-17 13:03:01,011 - DEBUG - File '_13.xlsx' - Row 15: Raw JAN = 1, Raw FEB = 4
+2025-02-17 13:03:01,011 - INFO - Processing file: _17.xlsx
+2025-02-17 13:03:01,012 - DEBUG - Header row detected at row 3 in '_16.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,013 - INFO - Processing file: _18.xlsx
+2025-02-17 13:03:01,014 - INFO - File '_13.xlsx' processed successfully with 12 rows.
+2025-02-17 13:03:01,015 - DEBUG - File '_16.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,017 - INFO - Processing file: _19.xlsx
+2025-02-17 13:03:01,018 - DEBUG - File '_16.xlsx' - Row 5: Raw JAN = 11, Raw FEB = 4
+2025-02-17 13:03:01,020 - DEBUG - File '_16.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:03:01,022 - DEBUG - File '_16.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,024 - DEBUG - File '_17.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:03:01,024 - DEBUG - File '_16.xlsx' - Row 8: Raw JAN = 22, Raw FEB = 8
+2025-02-17 13:03:01,025 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:03:01,029 - DEBUG - File '_16.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,031 - INFO - Extracted metadata for '_17.xlsx': RTO='KESANG - AR24', State='Arunachal Pradesh'
+2025-02-17 13:03:01,032 - DEBUG - File '_18.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:03:01,033 - DEBUG - File '_16.xlsx' - Row 10: Raw JAN = 133, Raw FEB = 79
+2025-02-17 13:03:01,036 - DEBUG - Header row detected at row 3 in '_17.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,037 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:03:01,039 - DEBUG - File '_19.xlsx' read successfully. Data shape: (8, 5)
+2025-02-17 13:03:01,041 - DEBUG - File '_16.xlsx' - Row 11: Raw JAN = 122, Raw FEB = 39
+2025-02-17 13:03:01,042 - DEBUG - File '_17.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,042 - INFO - Extracted metadata for '_18.xlsx': RTO='YOMI - AR26', State='Arunachal Pradesh'
+2025-02-17 13:03:01,043 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,044 - DEBUG - File '_16.xlsx' - Row 12: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:03:01,044 - DEBUG - File '_17.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,045 - DEBUG - Header row detected at row 3 in '_18.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,046 - INFO - Extracted metadata for '_19.xlsx': RTO='SIANG - AR21', State='Arunachal Pradesh'
+2025-02-17 13:03:01,046 - DEBUG - File '_16.xlsx' - Row 13: Raw JAN = 17, Raw FEB = 9
+2025-02-17 13:03:01,047 - DEBUG - File '_17.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,048 - DEBUG - File '_18.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,049 - DEBUG - Header row detected at row 3 in '_19.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,051 - INFO - File '_16.xlsx' processed successfully with 10 rows.
+2025-02-17 13:03:01,051 - INFO - File '_17.xlsx' processed successfully with 3 rows.
+2025-02-17 13:03:01,052 - DEBUG - File '_18.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,053 - DEBUG - File '_19.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:03:01,054 - INFO - Processing file: _2.xlsx
+2025-02-17 13:03:01,055 - INFO - Processing file: _20.xlsx
+2025-02-17 13:03:01,056 - DEBUG - File '_18.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:03:01,057 - DEBUG - File '_19.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,059 - INFO - File '_18.xlsx' processed successfully with 3 rows.
+2025-02-17 13:03:01,060 - DEBUG - File '_19.xlsx' - Row 6: Raw JAN = 8, Raw FEB = 5
+2025-02-17 13:03:01,061 - INFO - Processing file: _21.xlsx
+2025-02-17 13:03:01,062 - DEBUG - File '_19.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,068 - DEBUG - File '_2.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:03:01,070 - INFO - File '_19.xlsx' processed successfully with 4 rows.
+2025-02-17 13:03:01,074 - DEBUG - File '_20.xlsx' read successfully. Data shape: (4, 5)
+2025-02-17 13:03:01,074 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,075 - INFO - Processing file: _22.xlsx
+2025-02-17 13:03:01,077 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,080 - INFO - Extracted metadata for '_2.xlsx': RTO='DIBANG VALLEY - AR10', State='Arunachal Pradesh'
+2025-02-17 13:03:01,081 - DEBUG - File '_21.xlsx' read successfully. Data shape: (10, 5)
+2025-02-17 13:03:01,083 - INFO - Extracted metadata for '_20.xlsx': RTO='STATE TRANSPORT AUTHORITY - AR99', State='Arunachal Pradesh'
+2025-02-17 13:03:01,085 - DEBUG - Header row detected at row 3 in '_2.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,086 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,089 - DEBUG - Header row detected at row 3 in '_20.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,090 - DEBUG - File '_22.xlsx' read successfully. Data shape: (10, 5)
+2025-02-17 13:03:01,091 - DEBUG - File '_2.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,092 - INFO - Extracted metadata for '_21.xlsx': RTO='TAWANG - AR3', State='Arunachal Pradesh'
+2025-02-17 13:03:01,093 - WARNING - No valid data extracted from '_20.xlsx'.
+2025-02-17 13:03:01,093 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,094 - DEBUG - File '_2.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,095 - DEBUG - Header row detected at row 3 in '_21.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,096 - INFO - Processing file: _23.xlsx
+2025-02-17 13:03:01,096 - INFO - Extracted metadata for '_22.xlsx': RTO='TIRAP - AR13', State='Arunachal Pradesh'
+2025-02-17 13:03:01,097 - DEBUG - File '_2.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:03:01,098 - DEBUG - File '_21.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,101 - DEBUG - Header row detected at row 3 in '_22.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,105 - INFO - File '_2.xlsx' processed successfully with 3 rows.
+2025-02-17 13:03:01,106 - DEBUG - File '_23.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:03:01,107 - DEBUG - File '_21.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 5
+2025-02-17 13:03:01,108 - DEBUG - File '_22.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,109 - INFO - Processing file: _24.xlsx
+2025-02-17 13:03:01,109 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,110 - DEBUG - File '_21.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,111 - DEBUG - File '_22.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:01,112 - INFO - Extracted metadata for '_23.xlsx': RTO='UPPER SIANG - AR14', State='Arunachal Pradesh'
+2025-02-17 13:03:01,113 - DEBUG - File '_21.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 5
+2025-02-17 13:03:01,117 - DEBUG - File '_22.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:03:01,120 - DEBUG - File '_24.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:03:01,121 - DEBUG - Header row detected at row 3 in '_23.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,122 - DEBUG - File '_21.xlsx' - Row 8: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,123 - DEBUG - File '_22.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,123 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,124 - DEBUG - File '_23.xlsx' - Row 4: Raw JAN = 16, Raw FEB = 5
+2025-02-17 13:03:01,125 - DEBUG - File '_21.xlsx' - Row 9: Raw JAN = 8, Raw FEB = 21
+2025-02-17 13:03:01,125 - DEBUG - File '_22.xlsx' - Row 8: Raw JAN = 24, Raw FEB = 15
+2025-02-17 13:03:01,126 - INFO - Extracted metadata for '_24.xlsx': RTO='UPPER SUBANSIRI - AR7', State='Arunachal Pradesh'
+2025-02-17 13:03:01,126 - DEBUG - File '_23.xlsx' - Row 5: Raw JAN = 5, Raw FEB = 4
+2025-02-17 13:03:01,127 - INFO - File '_21.xlsx' processed successfully with 6 rows.
+2025-02-17 13:03:01,127 - DEBUG - File '_22.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,129 - DEBUG - Header row detected at row 3 in '_24.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,130 - DEBUG - File '_23.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:03:01,130 - INFO - Processing file: _25.xlsx
+2025-02-17 13:03:01,131 - INFO - File '_22.xlsx' processed successfully with 6 rows.
+2025-02-17 13:03:01,132 - DEBUG - File '_24.xlsx' - Row 4: Raw JAN = 26, Raw FEB = 21
+2025-02-17 13:03:01,134 - INFO - File '_23.xlsx' processed successfully with 3 rows.
+2025-02-17 13:03:01,135 - INFO - Processing file: _26.xlsx
+2025-02-17 13:03:01,136 - DEBUG - File '_24.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,137 - INFO - Processing file: _27.xlsx
+2025-02-17 13:03:01,139 - INFO - File '_24.xlsx' processed successfully with 2 rows.
+2025-02-17 13:03:01,141 - INFO - Processing file: _3.xlsx
+2025-02-17 13:03:01,145 - DEBUG - File '_25.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:03:01,145 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,146 - INFO - Extracted metadata for '_25.xlsx': RTO='WEST KAMENG - AR4', State='Arunachal Pradesh'
+2025-02-17 13:03:01,149 - DEBUG - Header row detected at row 3 in '_25.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,153 - DEBUG - File '_25.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,156 - DEBUG - File '_26.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:03:01,158 - DEBUG - File '_25.xlsx' - Row 5: Raw JAN = 5, Raw FEB = 1
+2025-02-17 13:03:01,160 - DEBUG - File '_27.xlsx' read successfully. Data shape: (11, 5)
+2025-02-17 13:03:01,160 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,161 - DEBUG - File '_25.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 3
+2025-02-17 13:03:01,162 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,165 - INFO - Extracted metadata for '_26.xlsx': RTO='WEST SIANG - AR8', State='Arunachal Pradesh'
+2025-02-17 13:03:01,167 - DEBUG - File '_3.xlsx' read successfully. Data shape: (8, 5)
+2025-02-17 13:03:01,168 - DEBUG - File '_25.xlsx' - Row 7: Raw JAN = 26, Raw FEB = 7
+2025-02-17 13:03:01,168 - INFO - Extracted metadata for '_27.xlsx': RTO='YUPIA - AR2', State='Arunachal Pradesh'
+2025-02-17 13:03:01,170 - DEBUG - Header row detected at row 3 in '_26.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,170 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,171 - DEBUG - File '_25.xlsx' - Row 8: Raw JAN = 52, Raw FEB = 16
+2025-02-17 13:03:01,172 - DEBUG - Header row detected at row 3 in '_27.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,173 - DEBUG - File '_26.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,173 - INFO - Extracted metadata for '_3.xlsx': RTO='EAST KAMENG - AR5', State='Arunachal Pradesh'
+2025-02-17 13:03:01,174 - INFO - File '_25.xlsx' processed successfully with 5 rows.
+2025-02-17 13:03:01,175 - DEBUG - File '_27.xlsx' - Row 4: Raw JAN = 5, Raw FEB = 4
+2025-02-17 13:03:01,176 - DEBUG - File '_26.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:03:01,177 - DEBUG - Header row detected at row 3 in '_3.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,177 - INFO - Processing file: _4.xlsx
+2025-02-17 13:03:01,178 - DEBUG - File '_27.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:03:01,178 - DEBUG - File '_26.xlsx' - Row 6: Raw JAN = 60, Raw FEB = 25
+2025-02-17 13:03:01,179 - DEBUG - File '_3.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,180 - DEBUG - File '_27.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:01,181 - DEBUG - File '_26.xlsx' - Row 7: Raw JAN = 49, Raw FEB = 25
+2025-02-17 13:03:01,182 - DEBUG - File '_3.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:03:01,184 - DEBUG - File '_27.xlsx' - Row 7: Raw JAN = 34, Raw FEB = 16
+2025-02-17 13:03:01,186 - DEBUG - File '_26.xlsx' - Row 8: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,187 - DEBUG - File '_4.xlsx' read successfully. Data shape: (14, 5)
+2025-02-17 13:03:01,188 - DEBUG - File '_3.xlsx' - Row 6: Raw JAN = 26, Raw FEB = 0
+2025-02-17 13:03:01,188 - DEBUG - File '_27.xlsx' - Row 8: Raw JAN = 63, Raw FEB = 26
+2025-02-17 13:03:01,189 - INFO - File '_26.xlsx' processed successfully with 5 rows.
+2025-02-17 13:03:01,190 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,191 - DEBUG - File '_3.xlsx' - Row 7: Raw JAN = 9, Raw FEB = 2
+2025-02-17 13:03:01,191 - DEBUG - File '_27.xlsx' - Row 9: Raw JAN = 2, Raw FEB = 4
+2025-02-17 13:03:01,192 - INFO - Processing file: _5.xlsx
+2025-02-17 13:03:01,192 - INFO - Extracted metadata for '_4.xlsx': RTO='EAST SIANG - AR9', State='Arunachal Pradesh'
+2025-02-17 13:03:01,194 - INFO - File '_3.xlsx' processed successfully with 4 rows.
+2025-02-17 13:03:01,194 - DEBUG - File '_27.xlsx' - Row 10: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,196 - DEBUG - Header row detected at row 3 in '_4.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,197 - INFO - Processing file: _6.xlsx
+2025-02-17 13:03:01,198 - INFO - File '_27.xlsx' processed successfully with 7 rows.
+2025-02-17 13:03:01,200 - DEBUG - File '_4.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,204 - DEBUG - File '_5.xlsx' read successfully. Data shape: (20, 5)
+2025-02-17 13:03:01,205 - INFO - Processing file: _7.xlsx
+2025-02-17 13:03:01,206 - DEBUG - File '_4.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:03:01,207 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,212 - DEBUG - File '_6.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:03:01,212 - DEBUG - File '_4.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:03:01,213 - INFO - Extracted metadata for '_5.xlsx': RTO='ITANAGAR CAPITAL REGION - AR1', State='Arunachal Pradesh'
+2025-02-17 13:03:01,214 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,218 - DEBUG - File '_4.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,219 - DEBUG - File '_7.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:03:01,220 - DEBUG - Header row detected at row 3 in '_5.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,221 - INFO - Extracted metadata for '_6.xlsx': RTO='KAMLE - AR23', State='Arunachal Pradesh'
+2025-02-17 13:03:01,221 - DEBUG - File '_4.xlsx' - Row 8: Raw JAN = 15, Raw FEB = 4
+2025-02-17 13:03:01,222 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,223 - DEBUG - File '_5.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,224 - DEBUG - Header row detected at row 3 in '_6.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,225 - DEBUG - File '_4.xlsx' - Row 9: Raw JAN = 176, Raw FEB = 58
+2025-02-17 13:03:01,225 - INFO - Extracted metadata for '_7.xlsx': RTO='Keyi Panyor - AR27', State='Arunachal Pradesh'
+2025-02-17 13:03:01,226 - DEBUG - File '_5.xlsx' - Row 5: Raw JAN = 36, Raw FEB = 25
+2025-02-17 13:03:01,227 - DEBUG - File '_6.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,227 - DEBUG - File '_4.xlsx' - Row 10: Raw JAN = 113, Raw FEB = 52
+2025-02-17 13:03:01,228 - DEBUG - Header row detected at row 3 in '_7.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,229 - DEBUG - File '_5.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,229 - DEBUG - File '_6.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:03:01,230 - DEBUG - File '_4.xlsx' - Row 11: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,231 - DEBUG - File '_7.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,232 - DEBUG - File '_5.xlsx' - Row 7: Raw JAN = 17, Raw FEB = 4
+2025-02-17 13:03:01,232 - DEBUG - File '_6.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:03:01,234 - DEBUG - File '_4.xlsx' - Row 12: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:03:01,234 - DEBUG - File '_7.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:03:01,235 - DEBUG - File '_5.xlsx' - Row 8: Raw JAN = 15, Raw FEB = 11
+2025-02-17 13:03:01,235 - INFO - File '_6.xlsx' processed successfully with 3 rows.
+2025-02-17 13:03:01,236 - DEBUG - File '_4.xlsx' - Row 13: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:03:01,237 - INFO - File '_7.xlsx' processed successfully with 2 rows.
+2025-02-17 13:03:01,237 - DEBUG - File '_5.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,237 - INFO - Processing file: _8.xlsx
+2025-02-17 13:03:01,238 - INFO - File '_4.xlsx' processed successfully with 10 rows.
+2025-02-17 13:03:01,239 - INFO - Processing file: _9.xlsx
+2025-02-17 13:03:01,239 - DEBUG - File '_5.xlsx' - Row 10: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:03:01,242 - DEBUG - File '_5.xlsx' - Row 11: Raw JAN = 61, Raw FEB = 26
+2025-02-17 13:03:01,243 - DEBUG - File '_5.xlsx' - Row 12: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:03:01,244 - DEBUG - File '_5.xlsx' - Row 13: Raw JAN = 396, Raw FEB = 194
+2025-02-17 13:03:01,245 - DEBUG - File '_5.xlsx' - Row 14: Raw JAN = 8, Raw FEB = 3
+2025-02-17 13:03:01,246 - DEBUG - File '_5.xlsx' - Row 15: Raw JAN = 578, Raw FEB = 305
+2025-02-17 13:03:01,249 - DEBUG - File '_8.xlsx' read successfully. Data shape: (4, 5)
+2025-02-17 13:03:01,249 - DEBUG - File '_5.xlsx' - Row 16: Raw JAN = 5, Raw FEB = 0
+2025-02-17 13:03:01,252 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:03:01,253 - DEBUG - File '_9.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:03:01,254 - DEBUG - File '_5.xlsx' - Row 17: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:03:01,254 - INFO - Extracted metadata for '_8.xlsx': RTO='DAADI - AR19', State='Arunachal Pradesh'
+2025-02-17 13:03:01,255 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:03:01,255 - DEBUG - File '_5.xlsx' - Row 18: Raw JAN = 7, Raw FEB = 3
+2025-02-17 13:03:01,256 - DEBUG - Header row detected at row 3 in '_8.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,257 - INFO - Extracted metadata for '_9.xlsx': RTO='KURUNG KUMEY - AR15', State='Arunachal Pradesh'
+2025-02-17 13:03:01,257 - DEBUG - File '_5.xlsx' - Row 19: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,258 - WARNING - No valid data extracted from '_8.xlsx'.
+2025-02-17 13:03:01,259 - DEBUG - Header row detected at row 3 in '_9.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:03:01,259 - INFO - File '_5.xlsx' processed successfully with 16 rows.
+2025-02-17 13:03:01,260 - DEBUG - File '_9.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:03:01,261 - DEBUG - File '_9.xlsx' - Row 5: Raw JAN = 6, Raw FEB = 2
+2025-02-17 13:03:01,262 - INFO - File '_9.xlsx' processed successfully with 2 rows.
+2025-02-17 13:03:01,304 - INFO - Combined output successfully saved to 'C:\Users\ASUS\OneDrive\Desktop\Processed_Vehicle_Data\All_Vehicle_Data_Combined_20250217_130301.xlsx'.
+2025-02-17 13:03:01,304 - INFO - Processing Summary:
+2025-02-17 13:03:01,305 - INFO -   Total files processed: 28
+2025-02-17 13:03:01,305 - INFO -   Successfully processed: 26
+2025-02-17 13:03:01,305 - INFO -   Files with errors/skipped: 2
+2025-02-17 13:03:01,305 - INFO -   Total records combined: 150
+2025-02-17 13:03:01,306 - INFO -   Total processing time: 0.43 seconds
+2025-02-17 13:03:01,306 - INFO -   Records with non-zero values: 150
+2025-02-17 13:03:01,307 - INFO -   Top 5 vehicle classes by count:
+2025-02-17 13:03:01,308 - INFO - Vehicle Class
+M-CYCLE/SCOOTER         26
+MOTOR CAR               26
+GOODS CARRIER           18
+DUMPER                  13
+TRACTOR (COMMERCIAL)    13
+2025-02-17 13:03:01,308 - INFO -   Records by state:
+2025-02-17 13:03:01,309 - INFO - State
+Arunachal Pradesh    150
+2025-02-17 13:03:01,309 - INFO - Vehicle Data Processing completed successfully.
+2025-02-17 13:12:19,546 - INFO - Vehicle Data Processing Script started.
+2025-02-17 13:12:19,547 - DEBUG - Output folder 'C:\Users\ASUS\OneDrive\Desktop' is ready.
+2025-02-17 13:12:19,548 - INFO - Found 28 files to process in 'C:\Users\ASUS\OneDrive\Documents\Maker Wise\Arunachal Pradesh'.
+2025-02-17 13:12:19,550 - INFO - Processing file: ANJAW - AR17.xlsx
+2025-02-17 13:12:19,554 - INFO - Processing file: _1.xlsx
+2025-02-17 13:12:19,557 - INFO - Processing file: _10.xlsx
+2025-02-17 13:12:19,559 - INFO - Processing file: _11.xlsx
+2025-02-17 13:12:19,572 - DEBUG - File 'ANJAW - AR17.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:12:19,575 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,577 - INFO - Extracted metadata for 'ANJAW - AR17.xlsx': RTO='ANJAW - AR17', State='Arunachal Pradesh'
+2025-02-17 13:12:19,580 - DEBUG - Header row detected at row 3 in 'ANJAW - AR17.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,582 - DEBUG - File '_1.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:12:19,586 - DEBUG - File 'ANJAW - AR17.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,588 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,590 - DEBUG - File '_10.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:12:19,592 - DEBUG - File 'ANJAW - AR17.xlsx' - Row 5: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:12:19,597 - INFO - Extracted metadata for '_1.xlsx': RTO='CHANGLANG - AR12', State='Arunachal Pradesh'
+2025-02-17 13:12:19,598 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,601 - DEBUG - File '_11.xlsx' read successfully. Data shape: (12, 5)
+2025-02-17 13:12:19,602 - INFO - File 'ANJAW - AR17.xlsx' processed successfully with 2 rows.
+2025-02-17 13:12:19,603 - DEBUG - Header row detected at row 3 in '_1.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,604 - INFO - Extracted metadata for '_10.xlsx': RTO='LEPARADA - AR25', State='Arunachal Pradesh'
+2025-02-17 13:12:19,606 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,607 - INFO - Processing file: _12.xlsx
+2025-02-17 13:12:19,608 - DEBUG - File '_1.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:12:19,610 - DEBUG - Header row detected at row 3 in '_10.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,610 - INFO - Extracted metadata for '_11.xlsx': RTO='LOHIT - AR11', State='Arunachal Pradesh'
+2025-02-17 13:12:19,612 - DEBUG - File '_1.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 3
+2025-02-17 13:12:19,613 - DEBUG - File '_10.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,616 - DEBUG - Header row detected at row 3 in '_11.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,618 - DEBUG - File '_12.xlsx' read successfully. Data shape: (13, 5)
+2025-02-17 13:12:19,619 - DEBUG - File '_1.xlsx' - Row 6: Raw JAN = 16, Raw FEB = 9
+2025-02-17 13:12:19,619 - DEBUG - File '_10.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,620 - DEBUG - File '_11.xlsx' - Row 4: Raw JAN = 88, Raw FEB = 16
+2025-02-17 13:12:19,621 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,621 - DEBUG - File '_1.xlsx' - Row 7: Raw JAN = 45, Raw FEB = 19
+2025-02-17 13:12:19,623 - DEBUG - File '_10.xlsx' - Row 6: Raw JAN = 17, Raw FEB = 1
+2025-02-17 13:12:19,624 - DEBUG - File '_11.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,624 - INFO - Extracted metadata for '_12.xlsx': RTO='LONGDING - AR18', State='Arunachal Pradesh'
+2025-02-17 13:12:19,625 - DEBUG - File '_1.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,625 - DEBUG - File '_10.xlsx' - Row 7: Raw JAN = 8, Raw FEB = 3
+2025-02-17 13:12:19,626 - DEBUG - File '_11.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 3
+2025-02-17 13:12:19,627 - DEBUG - Header row detected at row 3 in '_12.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,627 - INFO - File '_1.xlsx' processed successfully with 5 rows.
+2025-02-17 13:12:19,628 - DEBUG - File '_10.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,629 - DEBUG - File '_11.xlsx' - Row 7: Raw JAN = 6, Raw FEB = 1
+2025-02-17 13:12:19,629 - DEBUG - File '_12.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,630 - INFO - Processing file: _13.xlsx
+2025-02-17 13:12:19,630 - INFO - File '_10.xlsx' processed successfully with 5 rows.
+2025-02-17 13:12:19,631 - DEBUG - File '_11.xlsx' - Row 8: Raw JAN = 7, Raw FEB = 6
+2025-02-17 13:12:19,631 - DEBUG - File '_12.xlsx' - Row 5: Raw JAN = 7, Raw FEB = 2
+2025-02-17 13:12:19,632 - INFO - Processing file: _14.xlsx
+2025-02-17 13:12:19,633 - DEBUG - File '_11.xlsx' - Row 9: Raw JAN = 108, Raw FEB = 49
+2025-02-17 13:12:19,634 - DEBUG - File '_12.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,638 - DEBUG - File '_13.xlsx' read successfully. Data shape: (16, 5)
+2025-02-17 13:12:19,639 - DEBUG - File '_11.xlsx' - Row 10: Raw JAN = 45, Raw FEB = 17
+2025-02-17 13:12:19,640 - DEBUG - File '_12.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,641 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,645 - DEBUG - File '_11.xlsx' - Row 11: Raw JAN = 6, Raw FEB = 1
+2025-02-17 13:12:19,646 - DEBUG - File '_14.xlsx' read successfully. Data shape: (12, 5)
+2025-02-17 13:12:19,647 - DEBUG - File '_12.xlsx' - Row 8: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,647 - INFO - Extracted metadata for '_13.xlsx': RTO='LOWER DIBANG VALLEY - AR16', State='Arunachal Pradesh'
+2025-02-17 13:12:19,648 - INFO - File '_11.xlsx' processed successfully with 8 rows.
+2025-02-17 13:12:19,648 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,649 - DEBUG - File '_12.xlsx' - Row 9: Raw JAN = 5, Raw FEB = 3
+2025-02-17 13:12:19,650 - DEBUG - Header row detected at row 3 in '_13.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,650 - INFO - Processing file: _15.xlsx
+2025-02-17 13:12:19,651 - INFO - Extracted metadata for '_14.xlsx': RTO='LOWER SIANG - AR22', State='Arunachal Pradesh'
+2025-02-17 13:12:19,651 - DEBUG - File '_12.xlsx' - Row 10: Raw JAN = 12, Raw FEB = 11
+2025-02-17 13:12:19,653 - DEBUG - File '_13.xlsx' - Row 4: Raw JAN = 2, Raw FEB = 3
+2025-02-17 13:12:19,656 - DEBUG - Header row detected at row 3 in '_14.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,657 - DEBUG - File '_12.xlsx' - Row 11: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,660 - DEBUG - File '_13.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,662 - DEBUG - File '_14.xlsx' - Row 4: Raw JAN = 11, Raw FEB = 0
+2025-02-17 13:12:19,663 - DEBUG - File '_15.xlsx' read successfully. Data shape: (11, 5)
+2025-02-17 13:12:19,664 - DEBUG - File '_12.xlsx' - Row 12: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,665 - DEBUG - File '_13.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,666 - DEBUG - File '_14.xlsx' - Row 5: Raw JAN = 6, Raw FEB = 9
+2025-02-17 13:12:19,666 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,667 - INFO - File '_12.xlsx' processed successfully with 9 rows.
+2025-02-17 13:12:19,668 - DEBUG - File '_13.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,668 - DEBUG - File '_14.xlsx' - Row 6: Raw JAN = 16, Raw FEB = 6
+2025-02-17 13:12:19,669 - INFO - Extracted metadata for '_15.xlsx': RTO='LOWER SUBANSIRI - AR6', State='Arunachal Pradesh'
+2025-02-17 13:12:19,669 - INFO - Processing file: _16.xlsx
+2025-02-17 13:12:19,670 - DEBUG - File '_13.xlsx' - Row 8: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,671 - DEBUG - File '_14.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,672 - DEBUG - Header row detected at row 3 in '_15.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,674 - DEBUG - File '_13.xlsx' - Row 9: Raw JAN = 3, Raw FEB = 6
+2025-02-17 13:12:19,676 - DEBUG - File '_14.xlsx' - Row 8: Raw JAN = 86, Raw FEB = 95
+2025-02-17 13:12:19,678 - DEBUG - File '_15.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:12:19,679 - DEBUG - File '_13.xlsx' - Row 10: Raw JAN = 36, Raw FEB = 63
+2025-02-17 13:12:19,682 - DEBUG - File '_16.xlsx' read successfully. Data shape: (14, 5)
+2025-02-17 13:12:19,683 - DEBUG - File '_14.xlsx' - Row 9: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:12:19,683 - DEBUG - File '_15.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:12:19,684 - DEBUG - File '_13.xlsx' - Row 11: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:12:19,684 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,685 - DEBUG - File '_14.xlsx' - Row 10: Raw JAN = 34, Raw FEB = 14
+2025-02-17 13:12:19,686 - DEBUG - File '_15.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,686 - DEBUG - File '_13.xlsx' - Row 12: Raw JAN = 35, Raw FEB = 41
+2025-02-17 13:12:19,687 - INFO - Extracted metadata for '_16.xlsx': RTO='NAMSAI - AR20', State='Arunachal Pradesh'
+2025-02-17 13:12:19,688 - DEBUG - File '_14.xlsx' - Row 11: Raw JAN = 4, Raw FEB = 4
+2025-02-17 13:12:19,689 - DEBUG - File '_15.xlsx' - Row 7: Raw JAN = 6, Raw FEB = 0
+2025-02-17 13:12:19,690 - DEBUG - File '_13.xlsx' - Row 13: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,691 - DEBUG - Header row detected at row 3 in '_16.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,692 - INFO - File '_14.xlsx' processed successfully with 8 rows.
+2025-02-17 13:12:19,693 - DEBUG - File '_15.xlsx' - Row 8: Raw JAN = 13, Raw FEB = 2
+2025-02-17 13:12:19,694 - DEBUG - File '_13.xlsx' - Row 14: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,695 - DEBUG - File '_16.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,695 - INFO - Processing file: _17.xlsx
+2025-02-17 13:12:19,696 - DEBUG - File '_15.xlsx' - Row 9: Raw JAN = 17, Raw FEB = 3
+2025-02-17 13:12:19,696 - DEBUG - File '_13.xlsx' - Row 15: Raw JAN = 1, Raw FEB = 4
+2025-02-17 13:12:19,697 - DEBUG - File '_16.xlsx' - Row 5: Raw JAN = 11, Raw FEB = 4
+2025-02-17 13:12:19,698 - DEBUG - File '_15.xlsx' - Row 10: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,699 - INFO - File '_13.xlsx' processed successfully with 12 rows.
+2025-02-17 13:12:19,699 - DEBUG - File '_16.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:12:19,700 - INFO - File '_15.xlsx' processed successfully with 7 rows.
+2025-02-17 13:12:19,701 - INFO - Processing file: _18.xlsx
+2025-02-17 13:12:19,702 - DEBUG - File '_16.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,702 - INFO - Processing file: _19.xlsx
+2025-02-17 13:12:19,706 - DEBUG - File '_16.xlsx' - Row 8: Raw JAN = 22, Raw FEB = 8
+2025-02-17 13:12:19,708 - DEBUG - File '_17.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:12:19,709 - DEBUG - File '_16.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,710 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:12:19,711 - DEBUG - File '_16.xlsx' - Row 10: Raw JAN = 133, Raw FEB = 79
+2025-02-17 13:12:19,712 - INFO - Extracted metadata for '_17.xlsx': RTO='KESANG - AR24', State='Arunachal Pradesh'
+2025-02-17 13:12:19,714 - DEBUG - File '_16.xlsx' - Row 11: Raw JAN = 122, Raw FEB = 39
+2025-02-17 13:12:19,716 - DEBUG - Header row detected at row 3 in '_17.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,717 - DEBUG - File '_18.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:12:19,718 - DEBUG - File '_16.xlsx' - Row 12: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:12:19,720 - DEBUG - File '_17.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,721 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:12:19,723 - DEBUG - File '_16.xlsx' - Row 13: Raw JAN = 17, Raw FEB = 9
+2025-02-17 13:12:19,724 - DEBUG - File '_17.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,726 - DEBUG - File '_19.xlsx' read successfully. Data shape: (8, 5)
+2025-02-17 13:12:19,726 - INFO - Extracted metadata for '_18.xlsx': RTO='YOMI - AR26', State='Arunachal Pradesh'
+2025-02-17 13:12:19,727 - INFO - File '_16.xlsx' processed successfully with 10 rows.
+2025-02-17 13:12:19,728 - DEBUG - File '_17.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,728 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,729 - DEBUG - Header row detected at row 3 in '_18.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,729 - INFO - Processing file: _2.xlsx
+2025-02-17 13:12:19,730 - INFO - File '_17.xlsx' processed successfully with 3 rows.
+2025-02-17 13:12:19,730 - INFO - Extracted metadata for '_19.xlsx': RTO='SIANG - AR21', State='Arunachal Pradesh'
+2025-02-17 13:12:19,731 - DEBUG - Header row detected at row 3 in '_19.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,732 - INFO - Processing file: _20.xlsx
+2025-02-17 13:12:19,733 - DEBUG - File '_18.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,736 - DEBUG - File '_19.xlsx' - Row 4: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:12:19,740 - DEBUG - File '_2.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:12:19,741 - DEBUG - File '_18.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,742 - DEBUG - File '_19.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,742 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,747 - DEBUG - File '_20.xlsx' read successfully. Data shape: (4, 5)
+2025-02-17 13:12:19,748 - DEBUG - File '_18.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 0
+2025-02-17 13:12:19,748 - DEBUG - File '_19.xlsx' - Row 6: Raw JAN = 8, Raw FEB = 5
+2025-02-17 13:12:19,749 - INFO - Extracted metadata for '_2.xlsx': RTO='DIBANG VALLEY - AR10', State='Arunachal Pradesh'
+2025-02-17 13:12:19,749 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,750 - INFO - File '_18.xlsx' processed successfully with 3 rows.
+2025-02-17 13:12:19,751 - DEBUG - File '_19.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,752 - DEBUG - Header row detected at row 3 in '_2.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,752 - INFO - Extracted metadata for '_20.xlsx': RTO='STATE TRANSPORT AUTHORITY - AR99', State='Arunachal Pradesh'
+2025-02-17 13:12:19,752 - INFO - Processing file: _21.xlsx
+2025-02-17 13:12:19,753 - INFO - File '_19.xlsx' processed successfully with 4 rows.
+2025-02-17 13:12:19,754 - DEBUG - File '_2.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,755 - DEBUG - Header row detected at row 3 in '_20.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,758 - INFO - Processing file: _22.xlsx
+2025-02-17 13:12:19,759 - DEBUG - File '_2.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,761 - WARNING - No valid data extracted from '_20.xlsx'.
+2025-02-17 13:12:19,765 - DEBUG - File '_2.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:12:19,766 - DEBUG - File '_21.xlsx' read successfully. Data shape: (10, 5)
+2025-02-17 13:12:19,770 - INFO - Processing file: _23.xlsx
+2025-02-17 13:12:19,783 - DEBUG - File '_22.xlsx' read successfully. Data shape: (10, 5)
+2025-02-17 13:12:19,784 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,788 - INFO - File '_2.xlsx' processed successfully with 3 rows.
+2025-02-17 13:12:19,796 - DEBUG - File '_23.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:12:19,796 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,798 - INFO - Extracted metadata for '_21.xlsx': RTO='TAWANG - AR3', State='Arunachal Pradesh'
+2025-02-17 13:12:19,799 - INFO - Processing file: _24.xlsx
+2025-02-17 13:12:19,800 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,801 - INFO - Extracted metadata for '_22.xlsx': RTO='TIRAP - AR13', State='Arunachal Pradesh'
+2025-02-17 13:12:19,802 - DEBUG - Header row detected at row 3 in '_21.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,804 - INFO - Extracted metadata for '_23.xlsx': RTO='UPPER SIANG - AR14', State='Arunachal Pradesh'
+2025-02-17 13:12:19,806 - DEBUG - Header row detected at row 3 in '_22.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,815 - DEBUG - File '_21.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,816 - DEBUG - File '_24.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:12:19,819 - DEBUG - Header row detected at row 3 in '_23.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,820 - DEBUG - File '_22.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,820 - DEBUG - File '_21.xlsx' - Row 5: Raw JAN = 1, Raw FEB = 5
+2025-02-17 13:12:19,821 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,823 - DEBUG - File '_23.xlsx' - Row 4: Raw JAN = 16, Raw FEB = 5
+2025-02-17 13:12:19,824 - DEBUG - File '_22.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,825 - DEBUG - File '_21.xlsx' - Row 6: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,826 - INFO - Extracted metadata for '_24.xlsx': RTO='UPPER SUBANSIRI - AR7', State='Arunachal Pradesh'
+2025-02-17 13:12:19,827 - DEBUG - File '_23.xlsx' - Row 5: Raw JAN = 5, Raw FEB = 4
+2025-02-17 13:12:19,828 - DEBUG - File '_22.xlsx' - Row 6: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:12:19,829 - DEBUG - File '_21.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 5
+2025-02-17 13:12:19,831 - DEBUG - Header row detected at row 3 in '_24.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,831 - DEBUG - File '_23.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:12:19,832 - DEBUG - File '_22.xlsx' - Row 7: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,833 - DEBUG - File '_21.xlsx' - Row 8: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,834 - DEBUG - File '_24.xlsx' - Row 4: Raw JAN = 26, Raw FEB = 21
+2025-02-17 13:12:19,834 - INFO - File '_23.xlsx' processed successfully with 3 rows.
+2025-02-17 13:12:19,835 - DEBUG - File '_22.xlsx' - Row 8: Raw JAN = 24, Raw FEB = 15
+2025-02-17 13:12:19,837 - DEBUG - File '_21.xlsx' - Row 9: Raw JAN = 8, Raw FEB = 21
+2025-02-17 13:12:19,838 - DEBUG - File '_24.xlsx' - Row 5: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,838 - INFO - Processing file: _25.xlsx
+2025-02-17 13:12:19,839 - DEBUG - File '_22.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,840 - INFO - File '_21.xlsx' processed successfully with 6 rows.
+2025-02-17 13:12:19,842 - INFO - File '_24.xlsx' processed successfully with 2 rows.
+2025-02-17 13:12:19,844 - INFO - File '_22.xlsx' processed successfully with 6 rows.
+2025-02-17 13:12:19,845 - INFO - Processing file: _26.xlsx
+2025-02-17 13:12:19,846 - INFO - Processing file: _27.xlsx
+2025-02-17 13:12:19,849 - INFO - Processing file: _3.xlsx
+2025-02-17 13:12:19,852 - DEBUG - File '_25.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:12:19,855 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,855 - INFO - Extracted metadata for '_25.xlsx': RTO='WEST KAMENG - AR4', State='Arunachal Pradesh'
+2025-02-17 13:12:19,858 - DEBUG - Header row detected at row 3 in '_25.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,859 - DEBUG - File '_25.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,862 - DEBUG - File '_25.xlsx' - Row 5: Raw JAN = 5, Raw FEB = 1
+2025-02-17 13:12:19,864 - DEBUG - File '_25.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 3
+2025-02-17 13:12:19,866 - DEBUG - File '_25.xlsx' - Row 7: Raw JAN = 26, Raw FEB = 7
+2025-02-17 13:12:19,866 - DEBUG - File '_26.xlsx' read successfully. Data shape: (9, 5)
+2025-02-17 13:12:19,867 - DEBUG - File '_25.xlsx' - Row 8: Raw JAN = 52, Raw FEB = 16
+2025-02-17 13:12:19,868 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,869 - INFO - File '_25.xlsx' processed successfully with 5 rows.
+2025-02-17 13:12:19,870 - INFO - Extracted metadata for '_26.xlsx': RTO='WEST SIANG - AR8', State='Arunachal Pradesh'
+2025-02-17 13:12:19,872 - INFO - Processing file: _4.xlsx
+2025-02-17 13:12:19,875 - DEBUG - Header row detected at row 3 in '_26.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,878 - DEBUG - File '_27.xlsx' read successfully. Data shape: (11, 5)
+2025-02-17 13:12:19,879 - DEBUG - File '_26.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,880 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,882 - DEBUG - File '_26.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 0
+2025-02-17 13:12:19,884 - INFO - Extracted metadata for '_27.xlsx': RTO='YUPIA - AR2', State='Arunachal Pradesh'
+2025-02-17 13:12:19,885 - DEBUG - File '_3.xlsx' read successfully. Data shape: (8, 5)
+2025-02-17 13:12:19,886 - DEBUG - File '_26.xlsx' - Row 6: Raw JAN = 60, Raw FEB = 25
+2025-02-17 13:12:19,887 - DEBUG - Header row detected at row 3 in '_27.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,889 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,892 - DEBUG - File '_4.xlsx' read successfully. Data shape: (14, 5)
+2025-02-17 13:12:19,892 - DEBUG - File '_26.xlsx' - Row 7: Raw JAN = 49, Raw FEB = 25
+2025-02-17 13:12:19,893 - DEBUG - File '_27.xlsx' - Row 4: Raw JAN = 5, Raw FEB = 4
+2025-02-17 13:12:19,894 - INFO - Extracted metadata for '_3.xlsx': RTO='EAST KAMENG - AR5', State='Arunachal Pradesh'
+2025-02-17 13:12:19,894 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,894 - DEBUG - File '_26.xlsx' - Row 8: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,895 - DEBUG - File '_27.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:12:19,896 - DEBUG - Header row detected at row 3 in '_3.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,896 - INFO - Extracted metadata for '_4.xlsx': RTO='EAST SIANG - AR9', State='Arunachal Pradesh'
+2025-02-17 13:12:19,897 - INFO - File '_26.xlsx' processed successfully with 5 rows.
+2025-02-17 13:12:19,898 - DEBUG - File '_27.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,898 - DEBUG - File '_3.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,899 - DEBUG - Header row detected at row 3 in '_4.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,900 - INFO - Processing file: _5.xlsx
+2025-02-17 13:12:19,900 - DEBUG - File '_27.xlsx' - Row 7: Raw JAN = 34, Raw FEB = 16
+2025-02-17 13:12:19,901 - DEBUG - File '_3.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 2
+2025-02-17 13:12:19,901 - DEBUG - File '_4.xlsx' - Row 4: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,903 - DEBUG - File '_27.xlsx' - Row 8: Raw JAN = 63, Raw FEB = 26
+2025-02-17 13:12:19,903 - DEBUG - File '_3.xlsx' - Row 6: Raw JAN = 26, Raw FEB = 0
+2025-02-17 13:12:19,905 - DEBUG - File '_4.xlsx' - Row 5: Raw JAN = 2, Raw FEB = 1
+2025-02-17 13:12:19,906 - DEBUG - File '_27.xlsx' - Row 9: Raw JAN = 2, Raw FEB = 4
+2025-02-17 13:12:19,907 - DEBUG - File '_3.xlsx' - Row 7: Raw JAN = 9, Raw FEB = 2
+2025-02-17 13:12:19,908 - DEBUG - File '_4.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,911 - DEBUG - File '_27.xlsx' - Row 10: Raw JAN = 1, Raw FEB = 0
+2025-02-17 13:12:19,914 - DEBUG - File '_5.xlsx' read successfully. Data shape: (20, 5)
+2025-02-17 13:12:19,915 - INFO - File '_3.xlsx' processed successfully with 4 rows.
+2025-02-17 13:12:19,916 - DEBUG - File '_4.xlsx' - Row 7: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,916 - INFO - File '_27.xlsx' processed successfully with 7 rows.
+2025-02-17 13:12:19,917 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,917 - INFO - Processing file: _6.xlsx
+2025-02-17 13:12:19,918 - DEBUG - File '_4.xlsx' - Row 8: Raw JAN = 15, Raw FEB = 4
+2025-02-17 13:12:19,918 - INFO - Processing file: _7.xlsx
+2025-02-17 13:12:19,919 - INFO - Extracted metadata for '_5.xlsx': RTO='ITANAGAR CAPITAL REGION - AR1', State='Arunachal Pradesh'
+2025-02-17 13:12:19,920 - DEBUG - File '_4.xlsx' - Row 9: Raw JAN = 176, Raw FEB = 58
+2025-02-17 13:12:19,922 - DEBUG - Header row detected at row 3 in '_5.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,923 - DEBUG - File '_4.xlsx' - Row 10: Raw JAN = 113, Raw FEB = 52
+2025-02-17 13:12:19,924 - DEBUG - File '_5.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,925 - DEBUG - File '_4.xlsx' - Row 11: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,926 - DEBUG - File '_5.xlsx' - Row 5: Raw JAN = 36, Raw FEB = 25
+2025-02-17 13:12:19,928 - DEBUG - File '_4.xlsx' - Row 12: Raw JAN = 4, Raw FEB = 1
+2025-02-17 13:12:19,929 - DEBUG - File '_5.xlsx' - Row 6: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,931 - DEBUG - File '_4.xlsx' - Row 13: Raw JAN = 2, Raw FEB = 0
+2025-02-17 13:12:19,933 - DEBUG - File '_6.xlsx' read successfully. Data shape: (7, 5)
+2025-02-17 13:12:19,934 - DEBUG - File '_5.xlsx' - Row 7: Raw JAN = 17, Raw FEB = 4
+2025-02-17 13:12:19,935 - INFO - File '_4.xlsx' processed successfully with 10 rows.
+2025-02-17 13:12:19,937 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,939 - DEBUG - File '_7.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:12:19,939 - DEBUG - File '_5.xlsx' - Row 8: Raw JAN = 15, Raw FEB = 11
+2025-02-17 13:12:19,940 - INFO - Processing file: _8.xlsx
+2025-02-17 13:12:19,941 - INFO - Extracted metadata for '_6.xlsx': RTO='KAMLE - AR23', State='Arunachal Pradesh'
+2025-02-17 13:12:19,941 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,942 - DEBUG - File '_5.xlsx' - Row 9: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,944 - DEBUG - Header row detected at row 3 in '_6.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,944 - INFO - Extracted metadata for '_7.xlsx': RTO='Keyi Panyor - AR27', State='Arunachal Pradesh'
+2025-02-17 13:12:19,945 - DEBUG - File '_5.xlsx' - Row 10: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,945 - DEBUG - File '_6.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,947 - DEBUG - Header row detected at row 3 in '_7.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,948 - DEBUG - File '_5.xlsx' - Row 11: Raw JAN = 61, Raw FEB = 26
+2025-02-17 13:12:19,951 - DEBUG - File '_8.xlsx' read successfully. Data shape: (4, 5)
+2025-02-17 13:12:19,951 - DEBUG - File '_6.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:12:19,952 - DEBUG - File '_7.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 1
+2025-02-17 13:12:19,953 - DEBUG - File '_5.xlsx' - Row 12: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:12:19,953 - DEBUG - Option 3 metadata extraction succeeded.
+2025-02-17 13:12:19,954 - DEBUG - File '_6.xlsx' - Row 6: Raw JAN = 1, Raw FEB = 1
+2025-02-17 13:12:19,955 - DEBUG - File '_7.xlsx' - Row 5: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:12:19,956 - DEBUG - File '_5.xlsx' - Row 13: Raw JAN = 396, Raw FEB = 194
+2025-02-17 13:12:19,957 - INFO - Extracted metadata for '_8.xlsx': RTO='DAADI - AR19', State='Arunachal Pradesh'
+2025-02-17 13:12:19,958 - INFO - File '_6.xlsx' processed successfully with 3 rows.
+2025-02-17 13:12:19,958 - INFO - File '_7.xlsx' processed successfully with 2 rows.
+2025-02-17 13:12:19,959 - DEBUG - File '_5.xlsx' - Row 14: Raw JAN = 8, Raw FEB = 3
+2025-02-17 13:12:19,960 - DEBUG - Header row detected at row 3 in '_8.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,961 - INFO - Processing file: _9.xlsx
+2025-02-17 13:12:19,962 - DEBUG - File '_5.xlsx' - Row 15: Raw JAN = 578, Raw FEB = 305
+2025-02-17 13:12:19,963 - WARNING - No valid data extracted from '_8.xlsx'.
+2025-02-17 13:12:19,964 - DEBUG - File '_5.xlsx' - Row 16: Raw JAN = 5, Raw FEB = 0
+2025-02-17 13:12:19,965 - DEBUG - File '_5.xlsx' - Row 17: Raw JAN = 3, Raw FEB = 1
+2025-02-17 13:12:19,966 - DEBUG - File '_5.xlsx' - Row 18: Raw JAN = 7, Raw FEB = 3
+2025-02-17 13:12:19,967 - DEBUG - File '_5.xlsx' - Row 19: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,968 - INFO - File '_5.xlsx' processed successfully with 16 rows.
+2025-02-17 13:12:19,971 - DEBUG - File '_9.xlsx' read successfully. Data shape: (6, 5)
+2025-02-17 13:12:19,972 - DEBUG - Option 2 metadata extraction succeeded.
+2025-02-17 13:12:19,972 - INFO - Extracted metadata for '_9.xlsx': RTO='KURUNG KUMEY - AR15', State='Arunachal Pradesh'
+2025-02-17 13:12:19,973 - DEBUG - Header row detected at row 3 in '_9.xlsx': [nan, nan, 'JAN', 'FEB', nan]
+2025-02-17 13:12:19,974 - DEBUG - File '_9.xlsx' - Row 4: Raw JAN = 0, Raw FEB = 2
+2025-02-17 13:12:19,975 - DEBUG - File '_9.xlsx' - Row 5: Raw JAN = 6, Raw FEB = 2
+2025-02-17 13:12:19,976 - INFO - File '_9.xlsx' processed successfully with 2 rows.
+2025-02-17 13:12:20,011 - INFO - Combined output successfully saved to 'C:\Users\ASUS\OneDrive\Desktop\Consolidated Maker Wise Data (17-02-2025).xlsx'.
+2025-02-17 13:12:20,012 - INFO - Processing Summary:
+2025-02-17 13:12:20,012 - INFO -   Total files processed: 28
+2025-02-17 13:12:20,013 - INFO -   Successfully processed: 26
+2025-02-17 13:12:20,013 - INFO -   Files with errors/skipped: 2
+2025-02-17 13:12:20,013 - INFO -   Total records combined: 150
+2025-02-17 13:12:20,014 - INFO -   Total processing time: 0.46 seconds
+2025-02-17 13:12:20,014 - INFO -   Records with non-zero values: 150
+2025-02-17 13:12:20,015 - INFO -   Top 5 vehicle classes by count:
+2025-02-17 13:12:20,015 - INFO - Vehicle Class
+M-CYCLE/SCOOTER         26
+MOTOR CAR               26
+GOODS CARRIER           18
+DUMPER                  13
+TRACTOR (COMMERCIAL)    13
+2025-02-17 13:12:20,016 - INFO -   Records by state:
+2025-02-17 13:12:20,017 - INFO - State
+Arunachal Pradesh    150
+2025-02-17 13:12:20,017 - INFO - Vehicle Data Processing completed successfully.
