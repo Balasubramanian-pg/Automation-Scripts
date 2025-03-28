@@ -1,3 +1,4 @@
+```
 Sub ExtractData()
     Dim conn As Object
     Dim rs As Object
@@ -35,8 +36,10 @@ Sub ExtractData()
     ' Clean up
     rs.Close
     conn.Close
+
     Set rs = Nothing
     Set conn = Nothing
+```
     
     MsgBox "Data extracted successfully!", vbInformation
 End Sub
