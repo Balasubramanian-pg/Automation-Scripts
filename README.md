@@ -1,5 +1,5 @@
 # Automation-Scripts
-Here’s a list of **VBA and Macros**-focused automation project ideas for Excel, with brief descriptions of each:
+Here’s a list of **VBA and Macros**-focused automation project ideas for Excel, with brief descriptions of each Macro:
 
 ---
 
